@@ -1,0 +1,172 @@
+    <br><br><br><br>
+
+<div id="faq-section" class="faq-section-wrapper">
+
+  <style>
+    /* ============== Scoped FAQ styles ============== */
+    .faq-section-wrapper {
+      padding: 40px 20px;
+      background: linear-gradient(135deg, #5c6f7b 0%, #4e1c67 50%, #ffffff 100%);
+      border-radius: 16px;
+      color: #e0e0e0;
+      box-shadow: 0 10px 40px rgba(0,0,0,0.5);
+      margin: 0 15px;
+    }
+
+    .faq-section-wrapper .faq-title {
+      text-align: center;
+      font-size: 2.4rem;
+      font-weight: 700;
+      color: antiquewhite;
+      text-shadow: 2px 2px 6px rgba(0,0,0,0.7);
+      margin-bottom: 2.5rem;
+    }
+
+    .faq-section-wrapper .faq-grid {
+      display: grid;
+      grid-template-columns: 1fr 1fr;
+      gap: 50px;
+      align-items: start;
+    }
+
+    .faq-section-wrapper .faq-content {
+      display: flex;
+      flex-direction: column;
+      gap: 2rem;
+    }
+
+    .faq-section-wrapper .faq-item {
+      background: rgba(255,255,255,0.92);
+      color: #222;
+      padding: 1.6rem 2rem;
+      border-radius: 12px;
+      box-shadow: 0 4px 18px rgba(0,0,0,0.15);
+      transition: transform 0.25s ease, box-shadow 0.25s ease;
+    }
+
+    .faq-section-wrapper .faq-item:hover {
+      transform: translateY(-5px);
+      box-shadow: 0 12px 32px rgba(0,0,0,0.18);
+    }
+
+    .faq-section-wrapper .faq-question {
+      margin: 0 0 0.9rem 0;
+      font-size: 1.32rem;
+      font-weight: 700;
+      color: #0d47a1;
+      line-height: 1.35;
+    }
+
+    .faq-section-wrapper .faq-answer {
+      font-size: 1.05rem;
+      line-height: 1.6;
+      color: #333;
+    }
+
+    /* Make the image side sticky/fixed on scroll */
+    .faq-section-wrapper .faq-image-side {
+      position: sticky;
+      top: 20px; /* Adjust this value if you have a fixed navbar/header (e.g., 80px or 100px) */
+      align-self: start; /* Keeps it aligned to the top of the grid row */
+      height: fit-content; /* Prevents stretching */
+    }
+
+    .faq-section-wrapper .faq-image-side img {
+      width: 100%;
+      height: auto;
+      border-radius: 14px;
+      box-shadow: 0 16px 38px rgba(0,0,0,0.25);
+      object-fit: cover;
+    }
+
+    /* Mobile: Disable sticky behavior and revert to normal flow */
+    @media (max-width: 992px) {
+      .faq-section-wrapper .faq-grid {
+        grid-template-columns: 1fr;
+        gap: 40px;
+      }
+
+      .faq-section-wrapper .faq-title {
+        font-size: 2.1rem;
+      }
+
+      .faq-section-wrapper .faq-image-side {
+        position: static; /* No sticky on mobile */
+        top: auto;
+      }
+    }
+  </style>
+
+  <div class="faq-wrapper">
+    <h2 class="faq-title" style="font-size: 35px;">Frequently Asked Questions</h2>
+
+    <div class="faq-grid">
+      <!-- Left column - Questions & Answers -->
+      <div class="faq-content">
+        <div class="faq-item">
+          <h4 class="faq-question">1. What is the average cost to rent a porta potty for a day in USA?</h4>
+          <div class="faq-answer">
+            The cost to rent a porta potty for one day varies based on the unit type and delivery distance. Generally, single-day rentals for events may carry a different fee structure than monthly rentals due to logistics. Contact us for precise porta potty rental prices specific to your location.
+          </div>
+        </div>
+
+        <div class="faq-item">
+          <h4 class="faq-question">2. How often are the portable toilet units cleaned?</h4>
+          <div class="faq-answer">
+            For standard monthly rental cost agreements, we typically service the units once per week. This includes pumping the tank, cleaning the interior, and restocking supplies. However, for high-traffic portable toilets for events, we can arrange daily or even on-site attendant services throughout USA.
+          </div>
+        </div>
+
+        <div class="faq-item">
+          <h4 class="faq-question">3. Do I need a permit for a porta potty rental in USA?</h4>
+          <div class="faq-answer">
+            Permit requirements depend on where you plan to place the unit. If the portable toilet rental is on private property, you usually do not need a permit. However, placing a unit on a public sidewalk or street around USA often requires municipal approval.
+          </div>
+        </div>
+
+        <div class="faq-item">
+          <h4 class="faq-question">4. Can you place a porta potty anywhere on my site?</h4>
+          <div class="faq-answer">
+            We need a level surface accessible by our service truck to place the unit. The portable bathroom rental must be within 20-30 feet of a hard surface so our vacuum hoses can reach it for cleaning. We will assess the best spot for your local porta potty upon arrival.
+          </div>
+        </div>
+
+        <div class="faq-item">
+          <h4 class="faq-question">5. Does the portable restroom require electricity or water?</h4>
+          <div class="faq-answer">
+            Standard portable toilet units are self-contained and do not require water or power hookups. If you are interested in mobile restroom trailer rental options in USA, those larger units often require standard electrical connections and a garden hose hookup.
+          </div>
+        </div>
+
+        <div class="d-flex align-items-center flex-nowrap pt-xl-0" style="margin-left: 100px; font-family: Verdana, Geneva, Tahoma, sans-serif;">
+          <a href="tel:870-306-3280" class="btn-hover-bg btn btn-secondary text-white py-2 px-4 me-3" style="background-color: red; border: solid white; font-size:medium;">CLICK HERE TO CALL US (870) 306-3280</a>
+        </div>
+      </div>
+
+      <!-- Right column - Image (now sticky on desktop) -->
+      <div class="faq-image-side">
+        <img src="static/img/lockley.jpg" alt="Portable restroom unit" />
+      </div>
+    </div>
+  </div>
+</div>
+
+    <br><br><br><br>
+    <div class="containeralooma" style="background-color: transparent; width: 100%;">
+        <section class="boxalooma" style="text-align: center;">
+        <h2 class="heading-with-line template4 h2alooma">States In USA</h2>
+        <div class="row">
+            aloomaidallfotter
+        </div>
+        </section>
+    </div>
+
+    <br><br><br><br>
+    <div class="containeralooma" style="background-color: transparent; width: 100%;">
+        <section class="boxalooma" style="text-align: center;">
+        <h2 class="heading-with-line template4 h2alooma">Most popular cities we serve</h2>
+        <div class="row">
+            aloomaidallfottecity
+        </div>
+        </section>
+    </div>
